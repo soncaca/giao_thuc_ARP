@@ -22,8 +22,11 @@ sau khi ở máy WinXP tôi thực hiên việc ping đến địa chỉ IP củ
 
 Trong trường hợp này máy Ubuntu nhận được đây đúng là địa chỉ IP của máy mình vì vậy nó sẽ lấy địa chỉ MAC của nó và gửi gói tin ARP reply (dạng unicast) về cho máy WinXP. Đồng thời máy Ubuntu cũng cập nhật vào MAC table địa chỉ IP và MAC của máy WinXP vào bảng MAC table của mình.Lúc này, máy WinXP đã có địa chỉ MAC của máy Ubuntu. Nó sẽ lưu và MAC table của nó.
 
-
-
+### TÀI LIỆU THAM KHẢO
+- http://voer.edu.vn/m/cau-truc-goi-tin-va-luong-du-lieu-tren-mang/9fd9fa38
+- https://letonphat.wordpress.com/2010/11/25/t%E1%BB%95ng-quan-arp-arp-cache-proxy-arp/
+- http://forum.ceh.vn/thread-452.ceh
+- http://vusonbk.blogspot.com/2013/05/tim-hieu-ve-cac-loai-giao-thuc-arp-va.html
 
 
 
